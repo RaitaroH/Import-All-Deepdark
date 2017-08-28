@@ -1,0 +1,88 @@
+@import url("https://rawgit.com/RaitaroH/DuckDuckGo-DeepDark/master/DuckDuckGoDeepDark.css");
+@import url("https://rawgit.com/RaitaroH/KissAnime-DeepDark/master/KissAnimeDeepDark.css");
+@import url("https://rawgit.com/RaitaroH/MyAnimeList-DeepDark/master/MyAnimeListDeepDark.css");
+@import url("https://rawgit.com/RaitaroH/Sylus-DeepDark/master/StylusDeepDark.css");
+@import url("https://rawgit.com/RaitaroH/Vidme-DeepDark/master/VidmeDeepDark.css");
+@import url("https://rawgit.com/RaitaroH/YouTube-DeepDark/master/YouTubeDeepDarkClassic.css");
+@import url("https://rawgit.com/RaitaroH/YouTube-DeepDark/master/YouTubeDeepDarkMaterial.css");
+
+:root
+	{
+		/*DeepDark colors*/
+		--main-color: #00adee;
+		--main-background: #111111;
+		--second-background: #181818; 
+		--hover-background: #232323;
+		--main-text: #eff0f1;
+		--dimer-text: #CCCCCC;
+        
+        /*KDE colors*/
+		/*
+		--main-color: #3DAEE9;
+		--main-background: #232629;
+		--second-background: #2a2e32;
+		--hover-background: #31363b;
+		--main-text: #eff0f1;
+		--dimer-text: #bdc3c7;
+		*/
+
+		/*Vertex Dark colors*/
+		/*
+		--main-color: #4080fb;
+		--main-background: #2B2B2C;
+		--second-background: #353638;
+		--hover-background: #515254;
+		--main-text: #F3F3F5;
+		--dimer-text: #AEAFB0;
+		*/
+		
+		/*Arc Dark colors*/
+		/*
+		--main-color: #5294E2;
+		--main-background: #343944;
+		--second-background: #383C4A;
+		--hover-background: #414A59;
+		--main-text: #C1C8D1;
+		--dimer-text: #B3BAC5;
+		*/
+		
+		/*Firefox Dark colors*/
+		/*
+		--main-color: #5675B9;
+		--main-background: #272B35;
+		--second-background: #181D20;
+		--hover-background: #353A44;
+		--main-text: #E3EEF9;
+		--dimer-text: #606376;
+		*/
+		
+		/*Discord colors*/
+		/*
+		--main-color: #7289DA;
+		--main-background: #1E2124;
+		--second-background: #2F3136;
+		--hover-background: #484B51;
+		--main-text: #FFFFFF;
+		--dimer-text: #ADA8AA;
+		*/
+		
+		/*YouTube dark colors*/
+		/*
+		--main-color: #E52117;
+		--main-background: #111111;
+		--second-background: #232323;
+		--hover-background: #343434;
+		--main-text: #E1E1E1;
+		--dimer-text: #7F7F7F;
+		*/
+		
+		/*Mint-Y-Dark colors*/
+		/*
+		--main-color: #9AB87C;
+		--main-background: #2F2F2F;
+		--second-background: #383838;
+		--hover-background: #404040;
+		--main-text: #FFFFFF;
+		--dimer-text: #D5DADA;
+		*/
+	}
