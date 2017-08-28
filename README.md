@@ -1,5 +1,5 @@
 # Import-All-Deepdark
-Import all my deepdark themes all at once from github.
+Install my deepdark themes all at once from github.
 
 [The code](https://raw.githubusercontent.com/RaitaroH/Import-All-Deepdark/master/ImportDeepDark.css) on github. Simply create a new style with that code and nothing else.
 
@@ -11,4 +11,4 @@ Import all my deepdark themes all at once from github.
 > It can also work with other themes as long as they have a place to import from such as github.
 
 ### Disadvantages
-> You cannot modify or see the code in the themes.
+> You cannot modify or see the code of the themes inside Stylus.
