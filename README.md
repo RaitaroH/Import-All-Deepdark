@@ -8,6 +8,7 @@ Install my deepdark themes all at once from github.
 > Choose only what themes you want by deleting or commenting out the @imports.          
 > Have the most up-to-date versions of the themes (I don't upload to userstyles every single release).            
 > Allows color changing across all the themes for uniformity and consistency.         
+> Changes to the color palettes will not be overwritten by updates.
 > It can also work with other themes as long as they have a place to import from such as github.
 
 ### Disadvantages
