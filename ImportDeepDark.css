@@ -5,8 +5,8 @@
 @import url("https://rawgit.com/RaitaroH/Vidme-DeepDark/master/VidmeDeepDark.css");
 
 /*Please choose only one theme for youtube.*/
-@import url("https://rawgit.com/RaitaroH/YouTube-DeepDark/master/YouTubeDeepDarkClassic.css");
-/*@import url("https://rawgit.com/RaitaroH/YouTube-DeepDark/master/YouTubeDeepDarkMaterial.css");*/
+/*@import url("https://rawgit.com/RaitaroH/YouTube-DeepDark/master/YouTubeDeepDarkClassic.css");*/
+@import url("https://rawgit.com/RaitaroH/YouTube-DeepDark/master/YouTubeDeepDarkMaterial.css");
 
 :root
 {
