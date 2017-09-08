@@ -1,3 +1,6 @@
+/*Import-All-Deepdark*/
+/*Themes made by RaitaroH @https://github.com/RaitaroH*/
+
 @import url("https://rawgit.com/RaitaroH/DuckDuckGo-DeepDark/master/DuckDuckGoDeepDark.css");
 @import url("https://rawgit.com/RaitaroH/KissAnime-DeepDark/master/KissAnimeDeepDark.css");
 @import url("https://rawgit.com/RaitaroH/MyAnimeList-DeepDark/master/MyAnimeListDeepDark.css");
@@ -86,5 +89,15 @@
 	--hover-background: #404040;
 	--main-text: #FFFFFF;
 	--dimer-text: #D5DADA;
+	*/
+	
+	/*9anime colors*/
+	/*
+	--main-color: #723f8c;
+	--main-background: #0B0A0D;
+	--second-background: #17151C;
+	--hover-background: #1E1C25;
+	--main-text: #B4B4B4;
+	--dimer-text: #747474;
 	*/
 }
