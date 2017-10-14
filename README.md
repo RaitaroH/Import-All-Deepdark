@@ -1,7 +1,7 @@
 # Import-All-Deepdark
 Install my deepdark themes all at once from github. May the dark be kinder on thine eyes.
 
-[The code](https://raw.githubusercontent.com/RaitaroH/Import-All-Deepdark/master/ImportDeepDark.css) on github. Simply create a new style with that code and nothing else.
+[The code](https://raw.githubusercontent.com/RaitaroH/Import-All-Deepdark/master/ImportDeepDark.css) on github. Simply create a new style with that code and nothing else. userstyles.org doesn't allow code imports, thus I can only host this code here.
 
 ### Advantages
 > Easily install all my themes.         
