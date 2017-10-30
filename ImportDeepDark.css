@@ -19,11 +19,11 @@
 	/*DeepDark colors*/
 	--main-color: #00adee;
 	--main-background: #111111;
-	--second-background: #181818; 
+	--second-background: #181818;
 	--hover-background: #232323;
 	--main-text: #eff0f1;
 	--dimer-text: #CCCCCC;
-       
+
 	/*KDE colors*/
 	/*
 	--main-color: #3DAEE9;
@@ -33,7 +33,7 @@
 	--main-text: #eff0f1;
 	--dimer-text: #bdc3c7;
 	*/
-	
+
 	/*Vertex Dark colors*/
 	/*
 	--main-color: #4080fb;
@@ -43,7 +43,7 @@
 	--main-text: #F3F3F5;
 	--dimer-text: #AEAFB0;
 	*/
-	
+
 	/*Arc Dark colors*/
 	/*
 	--main-color: #5294E2;
@@ -53,7 +53,7 @@
 	--main-text: #C1C8D1;
 	--dimer-text: #B3BAC5;
 	*/
-	
+
 	/*Firefox Dark colors*/
 	/*
 	--main-color: #5675B9;
@@ -63,7 +63,7 @@
 	--main-text: #E3EEF9;
 	--dimer-text: #606376;
 	*/
-	
+
 	/*Firefox57 Dark colors*/
 	/*
 	--main-color: #4080FB;
@@ -73,7 +73,7 @@
 	--main-text: #F9F9FA;
 	--dimer-text: #D0D0D0;
 	*/
-	
+
 	/*Discord colors*/
 	/*
 	--main-color: #7289DA;
@@ -83,7 +83,7 @@
 	--main-text: #FFFFFF;
 	--dimer-text: #ADA8AA;
 	*/
-	
+
 	/*YouTube dark colors*/
 	/*
 	--main-color: #E52117;
@@ -93,7 +93,7 @@
 	--main-text: #E1E1E1;
 	--dimer-text: #7F7F7F;
 	*/
-	
+
 	/*Mint-Y-Dark colors*/
 	/*
 	--main-color: #9AB87C;
@@ -103,7 +103,7 @@
 	--main-text: #FFFFFF;
 	--dimer-text: #D5DADA;
 	*/
-	
+
 	/*9anime colors*/
 	/*
 	--main-color: #723f8c;
@@ -113,7 +113,7 @@
 	--main-text: #B4B4B4;
 	--dimer-text: #747474;
 	*/
-	
+
 	/*Black and white*/
 	/*
 	--main-color: #ffffff;
@@ -123,7 +123,7 @@
 	--main-text: #b4b4b4;
 	--dimer-text: #828282;
 	*/
-	
+
 	/*Yellow (colors from petrocompletions)*/
 	/*
 	--main-color: #FFC700;
@@ -133,7 +133,7 @@
 	--main-text: #EFF0F1;
 	--dimer-text: #9F9999;
 	*/
-	
+
 	/*Yellow 2*/
 	/*
 	--main-color: #ffc700;
@@ -143,27 +143,27 @@
 	--main-text: #fffdf5;
 	--dimer-text: #fff8e1;
 	*/
-	
+
 	/*Ubuntu grey colors*/
 	/*
 	--main-color: #EF7847;
 	--main-background: #312D2A;
-	--second-background: #3D3C38; 
+	--second-background: #3D3C38;
 	--hover-background: #59564D;
 	--main-text: #F2F1EF;
 	--dimer-text: #E6E5E3;
 	*/
-	
+
 	/*Ubuntu purple colors*/
 	/*
 	--main-color: #EF7847;
 	--main-background: #2C071A;
-	--second-background: #430B28; 
+	--second-background: #430B28;
 	--hover-background: #520D30;
 	--main-text: #F2F1EF;
 	--dimer-text: #E6E5E3;
 	*/
-	
+
 	/*Orange*/
 	/*
 	--main-color: #ff6905;
@@ -173,7 +173,7 @@
 	--main-text: #fff9f5;
 	--dimer-text: #ffede1;
 	*/
-	
+
 	/*Jisho 夜明け colors https://userstyles.org/styles/115621/jisho*/
 	/*
 	--main-color: #EF7D6C;
