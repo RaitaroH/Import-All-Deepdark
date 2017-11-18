@@ -1,7 +1,7 @@
 # Import-All-Deepdark
 Install my deepdark themes all at once from github. May the dark be kinder on thine eyes.
 
-**Install from github using Stylus:**
+![alt tag](https://img.shields.io/badge/Install%20directly%20with-Stylus-285959.svg)
 > [Jisho](https://rawgit.com/RaitaroH/Jisho-DeepDark/master/JishoDeepDark.user.css)
 
 > [Stylus](https://rawgit.com/RaitaroH/Stylus-DeepDark/master/StylusDeepDark.user.css)
