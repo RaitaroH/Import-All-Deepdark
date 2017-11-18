@@ -6,7 +6,7 @@ Install my deepdark themes all at once from github. May the dark be kinder on th
 
 > [Jisho](https://rawgit.com/RaitaroH/Jisho-DeepDark/master/JishoDeepDark.user.css)
 
-> [KissAnime](https://rawgit.com/RaitaroH/KissAnime-DeepDark/master/KissAnimeDeepDar.userk.css)
+> [KissAnime](https://rawgit.com/RaitaroH/KissAnime-DeepDark/master/KissAnimeDeepDark.user.css)
 
 > [MyAnimeList](https://rawgit.com/RaitaroH/MyAnimeList-DeepDark/master/MyAnimeListDeepDark.user.css)
 
