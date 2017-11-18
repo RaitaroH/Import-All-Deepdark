@@ -2,21 +2,23 @@
 Install my deepdark themes all at once from github. May the dark be kinder on thine eyes.
 
 ![alt tag](https://img.shields.io/badge/Install%20directly%20with-Stylus-285959.svg)
-> [DuckDuckGo](https://rawgit.com/RaitaroH/DuckDuckGo-DeepDark/master/DuckDuckGoDeepDark.css")
+> [DuckDuckGo](https://rawgit.com/RaitaroH/DuckDuckGo-DeepDark/master/DuckDuckGoDeepDark.user.css")
 
 > [Jisho](https://rawgit.com/RaitaroH/Jisho-DeepDark/master/JishoDeepDark.user.css)
 
-> [KissAnime](https://rawgit.com/RaitaroH/KissAnime-DeepDark/master/KissAnimeDeepDark.css")
+> [KissAnime](https://rawgit.com/RaitaroH/KissAnime-DeepDark/master/KissAnimeDeepDar.userk.css")
 
-> [MyAnimeList](https://rawgit.com/RaitaroH/MyAnimeList-DeepDark/master/MyAnimeListDeepDark.css")
+> [MyAnimeList](https://rawgit.com/RaitaroH/MyAnimeList-DeepDark/master/MyAnimeListDeepDark.user.css")
+
+> [LinuxMintBlog](https://rawgit.com/RaitaroH/LinuxMint_Blog-Deepdark/master/LinuxMintBlog-DeepDark.user.css")
 
 > [Stylus](https://rawgit.com/RaitaroH/Stylus-DeepDark/master/StylusDeepDark.user.css)
 
-> [Userstyles](https://rawgit.com/RaitaroH/Userstyles-DeepDark/master/UserstylesDeepDark.css")
+> [Userstyles](https://rawgit.com/RaitaroH/Userstyles-DeepDark/master/UserstylesDeepDark.user.css")
 
-> [Vidme](https://rawgit.com/RaitaroH/Vidme-DeepDark/master/VidmeDeepDark.css")
+> [Vidme](https://rawgit.com/RaitaroH/Vidme-DeepDark/master/VidmeDeepDark.user.css")
 
-> [WhatsApp](https://rawgit.com/RaitaroH/WhatsApp-DeepDark/master/WhatsAppDeepDark.css")
+> [WhatsApp](https://rawgit.com/RaitaroH/WhatsApp-DeepDark/master/WhatsAppDeepDark.user.css")
 
 > [YouTubeClassic](https://rawgit.com/RaitaroH/YouTube-DeepDark/master/YouTubeDeepDarkClassic.user.css)
 
