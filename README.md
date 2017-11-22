@@ -1,7 +1,6 @@
 # Import-All-Deepdark
 Install my deepdark themes all at once from github. May the dark be kinder on thine eyes.
 
-![alt tag](https://img.shields.io/badge/Install%20directly%20with-Stylus-285959.svg)
 > [DuckDuckGo](https://rawgit.com/RaitaroH/DuckDuckGo-DeepDark/master/DuckDuckGoDeepDark.user.css)
 
 > [Jisho](https://rawgit.com/RaitaroH/Jisho-DeepDark/master/JishoDeepDark.user.css)
