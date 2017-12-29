@@ -7,9 +7,11 @@ Install my deepdark themes all at once from github. May the dark be kinder on th
 
 > [KissAnime](https://rawgit.com/RaitaroH/KissAnime-DeepDark/master/KissAnimeDeepDark.user.css)
 
+> [LinuxMintBlog](https://rawgit.com/RaitaroH/LinuxMint_Blog-Deepdark/master/LinuxMintBlog-DeepDark.user.css)
+
 > [MyAnimeList](https://rawgit.com/RaitaroH/MyAnimeList-DeepDark/master/MyAnimeListDeepDark.user.css)
 
-> [LinuxMintBlog](https://rawgit.com/RaitaroH/LinuxMint_Blog-Deepdark/master/LinuxMintBlog-DeepDark.user.css)
+> [OpenUserCss](https://rawgit.com/RaitaroH/OpenUserCSS-DeepDarkmaster/OpenUserCSSDeepDark.user.css)
 
 > [Stylus](https://rawgit.com/RaitaroH/Stylus-DeepDark/master/StylusDeepDark.user.css)
 
