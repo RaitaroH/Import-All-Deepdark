@@ -8,12 +8,17 @@ Install my deepdark themes all at once from github. May the dark be kinder on th
 + [MyAnimeList](https://rawgit.com/RaitaroH/MyAnimeList-DeepDark/master/MyAnimeListDeepDark.user.css)
 + [MAL_AnimePlus](https://raw.githubusercontent.com/RaitaroH/MAL_AnimePlusGraph-DeepDark/master/MAL_AnimePlusGraphDeepDark.user.css)
 + [OpenUserCss](https://rawgit.com/OpenUserCSS/OpenUserCSS-DeepDark/master/OpenUserCSSDeepDark.user.css)
++ [Qwant](https://raw.githubusercontent.com/RaitaroH/Qwant-DeepDark/master/Qwant.user.css)
 + [Stylus](https://rawgit.com/RaitaroH/Stylus-DeepDark/master/StylusDeepDark.user.css)
 + [Userstyles](https://rawgit.com/RaitaroH/Userstyles-DeepDark/master/UserstylesDeepDark.user.css)
 + [Vidme](https://rawgit.com/RaitaroH/Vidme-DeepDark/master/VidmeDeepDark.user.css)
 + [WhatsApp](https://rawgit.com/RaitaroH/WhatsApp-DeepDark/master/WhatsAppDeepDark.user.css)
 + [YouTubeClassic](https://rawgit.com/RaitaroH/YouTube-DeepDark/master/YouTubeDeepDarkClassic.user.css)
 + [YouTubeMaterial](https://rawgit.com/RaitaroH/YouTube-DeepDark/master/YouTubeDeepDarkMaterial.user.css)
+
+Extra stuff:
++ [Hidden Password](https://raw.githubusercontent.com/RaitaroH/Hidden-Password/master/HiddenPassword.user.css)
++ [DarkThemeFoxFix](https://raw.githubusercontent.com/RaitaroH/DarkThemeFoxFix/master/DarkThemeFoxFix.user.css)
 
 
 Alternatively:
