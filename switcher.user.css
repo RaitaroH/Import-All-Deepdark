@@ -2,7 +2,7 @@
 @name Switcher for DeepDark Themes
 @namespace gitlab.com/RaitaroH/Import-All-Deepdark-DeepDark
 @homepageURL https://gitlab.com/RaitaroH/Import-All-Deepdark-DeepDark
-@version 1.0.0
+@version 1.0.1
 @updateURL https://gitlab.com/RaitaroH/Import-All-Deepdark/raw/master/switcher.user.css
 @description Change the colors for all DeepDark themes fast
 @author RaitaroH
@@ -143,7 +143,7 @@
 
 ==/UserStyle== */
 
-@-moz-document regexp("https?://.*") {
+@-moz-document regexp("https?://.*"), regexp("moz-extension://.*"), regexp("chrome-extension://.*") {
 
 /*Theme made by RaitaroH @https://gitlab.com/RaitaroH*/
 
@@ -158,7 +158,7 @@
 		--second-background: /*[[secondBackground]]*/ !important;
 		--hover-background: /*[[hoverBackground]]*/ !important;
 		--main-text: /*[[mainText]]*/ !important;
-		--dimer-text: /*[[dimerText]]*/ !important;
+		--dimmer-text: /*[[dimmerText]]*/ !important;
 
 		--shadow: 0 2px 3px 0 rgba(0,0,0,.2);
 		--red: #DA4453;
