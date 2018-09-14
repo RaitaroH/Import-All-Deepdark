@@ -20,6 +20,9 @@ Install my deepdark themes all at once from github. May the dark be kinder on th
 + [YouTubeClassic](https://gitlab.com/RaitaroH/YouTube-DeepDark/raw/master/YouTubeDeepDarkClassic.user.css)
 + [YouTubeMaterial](https://gitlab.com/RaitaroH/YouTube-DeepDark/raw/master/YouTubeDeepDarkMaterial.user.css)
 
+The easy color switcher:
++ [Switcher](https://gitlab.com/RaitaroH/Import-All-Deepdark/raw/master/switcher.user.css)
+
 Extra stuff:
 + [Hidden Password](https://gitlab.com/RaitaroH/Hidden-Password/master/HiddenPassword.user.css)
 + [DarkThemeFoxFix](https://gitlab.com/RaitaroH/DarkThemeFoxFix/master/DarkThemeFoxFix.user.css)
