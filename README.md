@@ -2,6 +2,7 @@
 Install my deepdark themes all at once from github. May the dark be kinder on thine eyes.
 
 + [DuckDuckGo](https://gitlab.com/RaitaroH/DuckDuckGo-DeepDark/raw/master/DuckDuckGoDeepDark.user.css)
++ [Gmail](https://gitlab.com/RaitaroH/Gmail-DeepDark/raw/master/GmailDeepDark.user.css)
 + [Jisho](https://gitlab.com/RaitaroH/Jisho-DeepDark/raw/master/JishoDeepDark.user.css)
 + [KissAnime](https://gitlab.com/RaitaroH/KissAnime-DeepDark/raw/master/KissAnimeDeepDark.user.css)
 + [LinuxMintBlog](https://gitlab.com/RaitaroH/LinuxMint_Blog-Deepdark/raw/master/LinuxMintBlog-DeepDark.user.css)
@@ -9,7 +10,9 @@ Install my deepdark themes all at once from github. May the dark be kinder on th
 + [MAL_AnimePlus](https://gitlab.com/RaitaroH/MAL_AnimePlusGraph-DeepDark/raw/master/MAL_AnimePlusGraphDeepDark.user.css)
 + [Masteranime](https://gitlab.com/RaitaroH/Masteranime-DeepDark/raw/master/Masteranime-DeepDark.user.css)
 + [OpenUserCss](https://rawgit.com/OpenUserCSS/OpenUserCSS-DeepDark/raw/master/OpenUserCSSDeepDark.user.css)
++ [ProtonMail](https://gitlab.com/RaitaroH/ProtonMail-DeepDark/raw/master/ProtonMailDeepDark.user.css)
 + [Qwant](https://gitlab.com/RaitaroH/Qwant-DeepDark/raw/master/Qwant.user.css)
++ [Syncthing](https://gitlab.com/RaitaroH/Syncthing-DeepDark/raw/master/SyncthingDeepDark.user.css)
 + [Stylus](https://gitlab.com/RaitaroH/Stylus-DeepDark/raw/master/StylusDeepDark.user.css)
 + [Userstyles](https://gitlab.com/RaitaroH/Userstyles-DeepDark/raw/master/UserstylesDeepDark.user.css)
 + [Vidme](https://gitlab.com/RaitaroH/Vidme-DeepDark/raw/master/VidmeDeepDark.user.css)
