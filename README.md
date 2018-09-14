@@ -24,15 +24,11 @@ Extra stuff:
 + [Hidden Password](https://gitlab.com/RaitaroH/Hidden-Password/master/HiddenPassword.user.css)
 + [DarkThemeFoxFix](https://gitlab.com/RaitaroH/DarkThemeFoxFix/master/DarkThemeFoxFix.user.css)
 
-
-Alternatively:
-[The code](https://gitlab.com/RaitaroH/Import-All-Deepdark/raw/master/ImportDeepDark.css) on github. Simply create a new style with that code and nothing else. userstyles.org doesn't allow code imports, thus I can only host this code here.
-
 ### Advantages
 + Easily install all my themes.         
 + Choose only what themes you want.      
 + Have the most up-to-date versions of the themes (I don't upload to userstyles every single release).            
-+ Allows color changing across all the themes for uniformity and consistency. (If you use @imports)         
++ Allows color changing across all the themes for uniformity and consistency. (If you use the switcher.user.css)                 
 + Allows easily color picking using Sylus's UI.
 + Changes to the color palettes will not be overwritten by updates.         
 + Overwrite the color palettes of the individual themes.         
@@ -41,5 +37,3 @@ Alternatively:
 ### Disadvantages - IF YOU INSTALL THEM ONE BY ONE USING STYLUS, THEN, THIS DOESN'T APPLY
 + You cannot modify or see the code of the themes inside Stylus.         
 + Possible lag before the theme is applied on the page.         
-+ Possible revert to the default color palette in case both the import-all and the original themes are present.         
-+ It will not work if raw.githubusercontent/rawgit are blocked with extensions such as uMatrix.         
