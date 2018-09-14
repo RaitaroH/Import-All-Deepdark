@@ -9,7 +9,7 @@ Install my deepdark themes all at once from github. May the dark be kinder on th
 + [MyAnimeList](https://gitlab.com/RaitaroH/MyAnimeList-DeepDark/raw/master/MyAnimeListDeepDark.user.css)
 + [MAL_AnimePlus](https://gitlab.com/RaitaroH/MAL_AnimePlusGraph-DeepDark/raw/master/MAL_AnimePlusGraphDeepDark.user.css)
 + [Masteranime](https://gitlab.com/RaitaroH/Masteranime-DeepDark/raw/master/Masteranime-DeepDark.user.css)
-+ [OpenUserCss](https://rawgit.com/OpenUserCSS/OpenUserCSS-DeepDark/raw/master/OpenUserCSSDeepDark.user.css)
++ [OpenUserCss](https://rawgit.com/OpenUserCSS/OpenUserCSS-DeepDark/master/OpenUserCSSDeepDark.user.css)
 + [ProtonMail](https://gitlab.com/RaitaroH/ProtonMail-DeepDark/raw/master/ProtonMailDeepDark.user.css)
 + [Qwant](https://gitlab.com/RaitaroH/Qwant-DeepDark/raw/master/Qwant.user.css)
 + [Syncthing](https://gitlab.com/RaitaroH/Syncthing-DeepDark/raw/master/SyncthingDeepDark.user.css)
