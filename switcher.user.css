@@ -177,6 +177,110 @@
 }
 @var color custom-dimmer-text "Custom dimmer text" "#CCCCCC"
 
+@var select colorShadow 'Shadow color' {
+	"Default": "rgba(0,0,0,.2)",
+	"Custom": "/*[[custom-color-shadow]]*\/"
+}
+@var color custom-color-shadow "Custom shadow color" "rgba(0,0,0,.2)"
+
+@var select colorRed 'Red color' {
+	"Default": "#DA4453",
+	"Solarized": "#dc322f",
+	"Gruvbox Dark": "#cc241d",
+	"Gruvbox Dark Intense": "#fb4934",
+	"Gruvbox Light": "#cc241d",
+	"Gruvbox Light Intense": "#9d0006",
+	"Custom": "/*[[custom-color-red]]*\/"
+}
+@var color custom-color-red "Custom red color" "#DA4453"
+
+@var select colorGreen 'Green color' {
+	"Default": "#27AE60",
+	"Solarized": "#859900",
+	"Gruvbox Dark": "#98971a",
+	"Gruvbox Dark Intense": "#b8bb26",
+	"Gruvbox Light": "#98971a",
+	"Gruvbox Light Intense": "#79740e",
+	"Custom": "/*[[custom-color-green]]*\/"
+}
+@var color custom-color-green "Custom green color" "#27AE60"
+
+@var select colorYellow 'Yellow color' {
+	"Default": "#FDBC4B",
+	"Solarized": "#b58900",
+	"Gruvbox Dark": "#d79921",
+	"Gruvbox Dark Intense": "#fabd2f",
+	"Gruvbox Light": "#d79921",
+	"Gruvbox Light Intense": "#b57614",
+	"Custom": "/*[[custom-color-yellow]]*\/"
+}
+@var color custom-color-yellow "Custom yellow color" "#FDBC4B"
+
+@var select colorOrange 'Orange color' {
+	"Default": "#F79A63",
+	"Solarized": "#cb4b16",
+	"Gruvbox Dark": "#d65d0e",
+	"Gruvbox Dark Intense": "#fe8019",
+	"Gruvbox Light": "#d65d0e",
+	"Gruvbox Light Intense": "#af3a03",
+	"Custom": "/*[[custom-color-orange]]*\/"
+}
+@var color custom-color-orange "Custom orange color" "#F79A63"
+
+@var select colorBlue 'Blue color' {
+	"Default": "#2980b9",
+	"Solarized": "#268bd2",
+	"Gruvbox Dark": "#458588",
+	"Gruvbox Dark Intense": "#83a598",
+	"Gruvbox Light": "#458588",
+	"Gruvbox Light Intense": "#076678",
+	"Custom": "/*[[custom-color-blue]]*\/"
+}
+@var color custom-color-blue "Custom blue color" "#2980b9"
+
+@var select colorPurple 'Purple color' {
+	"Default": "#60459F",
+	"Solarized": "#6c71c4",
+	"Gruvbox Dark": "#b16286",
+	"Gruvbox Dark Intense": "#d3869b",
+	"Gruvbox Light": "#b16286",
+	"Gruvbox Light Intense": "#8f3f71",
+	"Custom": "/*[[custom-color-purple]]*\/"
+}
+@var color custom-color-purple "Custom purple color" "#60459F"
+
+@var select colorPink 'Pink color' {
+	"Default": "#FE9EAD",
+	"Solarized": "#d33682",
+	"Gruvbox Dark": "#b16286",
+	"Gruvbox Dark Intense": "#d3869b",
+	"Gruvbox Light": "#b16286",
+	"Gruvbox Light Intense": "#8f3f71",
+	"Custom": "/*[[custom-color-pink]]*\/"
+}
+@var color custom-color-pink "Custom pink color" "#FE9EAD"
+
+@var select colorCyan 'Cyan color' {
+	"Default": "#1abc9c",
+	"Solarized": "#2aa198",
+	"Gruvbox Dark": "#689d6a",
+	"Gruvbox Dark Intense": "#8ec07c",
+	"Gruvbox Light": "#689d6a",
+	"Gruvbox Light Intense": "#427b58",
+	"Custom": "/*[[custom-color-cyan]]*\/"
+}
+@var color custom-color-cyan "Custom cyan color" "#1abc9c"
+
+@var select colorGray 'Gray color' {
+	"Default": "#c3c3c3",
+	"Solarized": "#93A1A1",
+	"Gruvbox Dark": "#a89984",
+	"Gruvbox Dark Intense": "#928374",
+	"Gruvbox Light": "#7c6f64",
+	"Gruvbox Light Intense": "#928374",
+	"Custom": "/*[[custom-color-gray]]*\/"
+}
+@var color custom-color-gray "Custom gray color" "#c3c3c3"
 ==/UserStyle== */
 
 @-moz-document regexp("https?://.*"), regexp("moz-extension://.*"), regexp("chrome-extension://.*") {
@@ -196,11 +300,16 @@
 		--main-text: /*[[mainText]]*/ !important;
 		--dimmer-text: /*[[dimmerText]]*/ !important;
 
-		--shadow: 0 2px 3px 0 rgba(0,0,0,.2);
-		--red: #DA4453;
-		--green: #27AE60;
-		--gray: #c3c3c3;
-		--purple: #60459F;
-		--yellow: #FDBC4B;
+		--shadow: 0 2px 3px 0 /*[[colorShadow]]*/ !important;
+		--red: /*[[colorRed]]*/ !important;
+		--green: /*[[colorGreen]]*/ !important;
+		--yellow: /*[[colorYellow]]*/ !important;
+		--orange: /*[[colorOrange]]*/ !important;
+		--blue: /*[[colorBlue]]*/ !important;
+		--cyan: /*[[colorCyan]]*/ !important;
+		--purple: /*[[colorPurple]]*/ !important;
+		--pink: /*[[colorPink]]*/ !important;
+		--gray: /*[[colorGray]]*/ !important;
+		
 	}
 }
