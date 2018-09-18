@@ -2,7 +2,7 @@
 @name Switcher for DeepDark Themes
 @namespace gitlab.com/RaitaroH/Import-All-Deepdark-DeepDark
 @homepageURL https://gitlab.com/RaitaroH/Import-All-Deepdark-DeepDark
-@version 1.0.3
+@version 1.0.4
 @updateURL https://gitlab.com/RaitaroH/Import-All-Deepdark/raw/master/switcher.user.css
 @description Change the colors for all DeepDark themes fast
 @author RaitaroH
@@ -30,8 +30,7 @@
 	"Jisho_夜明け": "#EF7D6C",
 	"Adapta Nokto": "#00bcd4",
 	"Adapta Breath Nokto": "#1abc9c",
-	"Solarized Dark": "#268BD2",
-	"Solarized Light": "#268BD2",
+	"Solarized": "#268BD2",
 	"Custom": "/*[[custom-main-color]]*\/"
 }
 @var color custom-main-color "Custom main color" #00adee"
@@ -56,8 +55,8 @@
 	"Orange": "#0a0400",
 	"Jisho_夜明け": "#332222",
 	"Adapta Breath Nokto": "#222d32",
-	"Solarized Dark": "#002B36",
-	"Solarized Light": "#EEE8D5",
+	"Solarized Dark": "#073642",
+	"Solarized Light": "#FDF6E3",
 	"Custom": "/*[[custom-main-background]]*\/"
 }
 @var color custom-main-background "Custom main background" "#111111"
@@ -82,8 +81,8 @@
 	"Orange": "#0e0702",
 	"Jisho_夜明け": "#2A1B1B",
 	"Adapta Breath Nokto": "#263238",
-	"Solarized Dark": "#073642",
-	"Solarized Light": "#FDF6E3",
+	"Solarized Dark": "#03303C",
+	"Solarized Light": "#F5EFDC",
 	"Custom": "/*[[custom-second-background]]*\/"
 }
 @var color custom-second-background "Custom second background" "#181818"
@@ -108,8 +107,8 @@
 	"Orange": "#110903",
 	"Jisho_夜明け": "#863B2F",
 	"Adapta Breath Nokto": "#2a353b",
-	"Solarized Dark": "#586E75",
-	"Solarized Light": "#F3F0E7",
+	"Solarized Dark": "#002B36",
+	"Solarized Light": "#EEE8D5",
 	"Custom": "/*[[custom-hover-background]]*\/"
 }
 @var color custom-hover-background "Custom hover background" "#232323"
