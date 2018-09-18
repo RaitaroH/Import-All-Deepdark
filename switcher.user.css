@@ -2,7 +2,7 @@
 @name Switcher for DeepDark Themes
 @namespace gitlab.com/RaitaroH/Import-All-Deepdark-DeepDark
 @homepageURL https://gitlab.com/RaitaroH/Import-All-Deepdark-DeepDark
-@version 1.0.2
+@version 1.0.3
 @updateURL https://gitlab.com/RaitaroH/Import-All-Deepdark/raw/master/switcher.user.css
 @description Change the colors for all DeepDark themes fast
 @author RaitaroH
@@ -28,6 +28,7 @@
 	"Ubuntu_purple": "#EF7847",
 	"Orange": "#ff6905",
 	"Jisho_夜明け": "#EF7D6C",
+	"Adapta Nokto": "#00bcd4",
 	"Adapta Breath Nokto": "#1abc9c",
 	"Solarized Dark": "#268BD2",
 	"Solarized Light": "#268BD2",
