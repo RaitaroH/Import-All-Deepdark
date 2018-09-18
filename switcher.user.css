@@ -29,6 +29,7 @@
 	"Jisho_夜明け": "#EF7D6C",
 	"Adapta Breath Nokto": "#1abc9c",
 	"Solarized Dark": "#268BD2",
+	"Solarized Light": "#268BD2",
 	"Custom": "/*[[custom-main-color]]*\/"
 }
 @var color custom-main-color "Custom main color" #00adee"
@@ -53,6 +54,7 @@
 	"Jisho_夜明け": "#332222",
 	"Adapta Breath Nokto": "#222d32",
 	"Solarized Dark": "#002B36",
+	"Solarized Light": "#EEE8D5",
 	"Custom": "/*[[custom-main-background]]*\/"
 }
 @var color custom-main-background "Custom main background" "#111111"
@@ -77,6 +79,7 @@
 	"Jisho_夜明け": "#2A1B1B",
 	"Adapta Breath Nokto": "#263238",
 	"Solarized Dark": "#073642",
+	"Solarized Light": "#FDF6E3",
 	"Custom": "/*[[custom-second-background]]*\/"
 }
 @var color custom-second-background "Custom second background" "#181818"
@@ -101,6 +104,7 @@
 	"Jisho_夜明け": "#863B2F",
 	"Adapta Breath Nokto": "#2a353b",
 	"Solarized Dark": "#586E75",
+	"Solarized Light": "#F3F0E7",
 	"Custom": "/*[[custom-hover-background]]*\/"
 }
 @var color custom-hover-background "Custom hover background" "#232323"
@@ -125,6 +129,7 @@
 	"Jisho_夜明け": "#EFB26C",
 	"Adapta Breath Nokto": "#FFFFFF",
 	"Solarized Dark": "#FDF6E3",
+	"Solarized Light": "#073642",
 	"Custom": "/*[[custom-main-text]]*\/"
 }
 @var color custom-main-text "main-text" "#eff0f1"
@@ -149,6 +154,7 @@
 	"Jisho_夜明け": "#986E3F",
 	"Adapta Breath Nokto": "#9b9b9b",
 	"Solarized Dark": "#EEE8D5",
+	"Solarized Light": "#586E75",
 	"Custom": "/*[[custom-dimmer-text]]*\/"
 }
 @var color custom-dimmer-text "dimmer-text" "#CCCCCC"
