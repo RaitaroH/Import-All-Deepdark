@@ -31,6 +31,8 @@
 	"Adapta Nokto": "#00bcd4",
 	"Adapta Breath Nokto": "#1abc9c",
 	"Solarized": "#268BD2",
+	"Gruvbox Dark": "#fe8019",
+	"Gruvbox Light": "#af3a03",
 	"Custom": "/*[[custom-main-color]]*\/"
 }
 @var color custom-main-color "Custom main color" #00adee"
@@ -54,9 +56,11 @@
 	"Ubuntu_purple": "#2C071A",
 	"Orange": "#0a0400",
 	"Jisho_夜明け": "#332222",
-	"Adapta Breath Nokto": "#222d32",
+	"Adapta Nokto": "#222d32",
 	"Solarized Dark": "#073642",
 	"Solarized Light": "#FDF6E3",
+	"Gruvbox Dark": "#1d2021",
+	"Gruvbox Light": "#f9f5d7",
 	"Custom": "/*[[custom-main-background]]*\/"
 }
 @var color custom-main-background "Custom main background" "#111111"
@@ -80,9 +84,11 @@
 	"Ubuntu_purple": "#430B28",
 	"Orange": "#0e0702",
 	"Jisho_夜明け": "#2A1B1B",
-	"Adapta Breath Nokto": "#263238",
+	"Adapta Nokto": "#263238",
 	"Solarized Dark": "#03303C",
 	"Solarized Light": "#F5EFDC",
+	"Gruvbox Dark": "#282828",
+	"Gruvbox Light": "#fbf1c7",
 	"Custom": "/*[[custom-second-background]]*\/"
 }
 @var color custom-second-background "Custom second background" "#181818"
@@ -106,9 +112,11 @@
 	"Ubuntu_purple": "#520D30",
 	"Orange": "#110903",
 	"Jisho_夜明け": "#863B2F",
-	"Adapta Breath Nokto": "#2a353b",
+	"Adapta Nokto": "#2a353b",
 	"Solarized Dark": "#002B36",
 	"Solarized Light": "#EEE8D5",
+	"Gruvbox Dark": "#3c3836",
+	"Gruvbox Light": "#ebdbb2",
 	"Custom": "/*[[custom-hover-background]]*\/"
 }
 @var color custom-hover-background "Custom hover background" "#232323"
@@ -132,12 +140,14 @@
 	"Ubuntu_purple": "#F2F1EF",
 	"Orange": "#fff9f5",
 	"Jisho_夜明け": "#EFB26C",
-	"Adapta Breath Nokto": "#FFFFFF",
+	"Adapta Nokto": "#FFFFFF",
 	"Solarized Dark": "#FDF6E3",
 	"Solarized Light": "#073642",
+	"Gruvbox Dark": "#fbf1c7",
+	"Gruvbox Light": "#282828",
 	"Custom": "/*[[custom-main-text]]*\/"
 }
-@var color custom-main-text "main-text" "#eff0f1"
+@var color custom-main-text "Custom main text" "#eff0f1"
 
 @var select dimmerText 'Secondary text color' {
 	"DeepDark": "#CCCCCC",
@@ -158,12 +168,14 @@
 	"Ubuntu_purple": "#E6E5E3",
 	"Orange": "#ffede1",
 	"Jisho_夜明け": "#986E3F",
-	"Adapta Breath Nokto": "#9b9b9b",
+	"Adapta Nokto": "#9b9b9b",
 	"Solarized Dark": "#EEE8D5",
 	"Solarized Light": "#586E75",
+	"Gruvbox Dark": "#ebdbb2",
+	"Gruvbox Light": "#3c3836",
 	"Custom": "/*[[custom-dimmer-text]]*\/"
 }
-@var color custom-dimmer-text "dimmer-text" "#CCCCCC"
+@var color custom-dimmer-text "Custom dimmer text" "#CCCCCC"
 
 ==/UserStyle== */
 
