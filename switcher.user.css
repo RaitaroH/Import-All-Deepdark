@@ -2,285 +2,74 @@
 @name Switcher for DeepDark Themes
 @namespace gitlab.com/RaitaroH/Import-All-Deepdark-DeepDark
 @homepageURL https://gitlab.com/RaitaroH/Import-All-Deepdark-DeepDark
-@version 1.0.6
+@version 2.0.0
 @updateURL https://gitlab.com/RaitaroH/Import-All-Deepdark/raw/master/switcher.user.css
 @description Change the colors for all DeepDark themes fast
 @author RaitaroH
 @license GNU-V3.0
 
-@preprocessor uso
-@var select mainColor 'Main color' {
-	"DeepDark": "#00adee",
-	"BreezeDark": "#3DAEE9",
-	"Vertex Dark": "#4080fb",
-	"Arc Dark": "#5294E2",
-	"Firefox Dark": "#5675B9",
-	"Firefox57": "#4080FB",
-	"Discord": "#7289DA",
-	"YouTubeDark": "#E52117",
-	"YouTubeLight": "#E52117",
-	"Mint-Y-Dark": "#9AB87C",
-	"9anime": "#723f8c",
-	"Black&White": "#ffffff",
-	"Yellow_petrocompletions": "#FFC700",
-	"Yellow2": "#FFC700",
-	"Ubuntu_grey": "#EF7847",
-	"Ubuntu_purple": "#EF7847",
-	"Orange": "#ff6905",
-	"Jisho_夜明け": "#EF7D6C",
-	"Adapta Nokto": "#00bcd4",
-	"Adapta Breath Nokto": "#1abc9c",
-	"Solarized": "#268BD2",
-	"Gruvbox Dark": "#fe8019",
-	"Gruvbox Light": "#af3a03",
-	"Custom": "/*[[custom-main-color]]*\/"
-}
-@var color custom-main-color "Custom main color" #00adee"
+@preprocessor stylus
 
-@var select mainBackground 'Main background color' {
-	"DeepDark": "#111111",
-	"BreezeDark": "#232629",
-	"Vertex Dark": "#2B2B2C",
-	"Arc Dark": "#343944",
-	"Firefox Dark": "#272B35",
-	"Firefox57": "#0C0C0D",
-	"Discord": "#1E2124",
-	"YouTubeDark": "#111111",
-	"YouTubeLight": "#F9F9F9",
-	"Mint-Y-Dark": "#2F2F2F",
-	"9anime": "#0B0A0D",
-	"Black&White": "#000000",
-	"Yellow_petrocompletions": "#141414",
-	"Yellow2": "#0a0800",
-	"Ubuntu_grey": "#312D2A",
-	"Ubuntu_purple": "#2C071A",
-	"Orange": "#0a0400",
-	"Jisho_夜明け": "#332222",
-	"Adapta Nokto": "#222d32",
-	"Solarized Dark": "#073642",
-	"Solarized Light": "#FDF6E3",
-	"Gruvbox Dark": "#1d2021",
-	"Gruvbox Light": "#f9f5d7",
-	"Custom": "/*[[custom-main-background]]*\/"
-}
-@var color custom-main-background "Custom main background" "#111111"
+@var select stylus-deepdark-style "Preset themes" [
+	"Deep-Dark",
+	"Inspired-Dark",
+	"Breeze-Dark",
+	"Breeze-Light",
+  "HavocOS",
+	"Arc-Dark",
+	"Vertex-Dark",
+	"Mint-Y-Dark",
+	"Adapta-Nokto",
+	"Adapta-Breath-Nokto",
+	"Adapta-Light",
+	"Adapta-Breath-Light",
+	"Gruvbox-Dark",
+	"Gruvbox-Light",
+	"NierAutomata-Dark",
+	"NierAutomata-Light",
+	"Solarized-Dark",
+	"Solarized-Light",
+	"9anime",
+	"Firefox-Dark",
+	"Firefox-57",
+	"Discord",
+	"YouTube-Dark",
+	"Black-and-White",
+	"Yellow",
+	"Yellow-2",
+	"Ubuntu-Grey",
+	"Ubuntu-Purple",
+	"Orange",
+	"Jisho",
+	"Custom"
+]
+@var select colorRGB "Custom RGB color" [
+	"Default",
+	"Solarized",
+	"Gruvbox Dark",
+	"Gruvbox Dark Intense",
+	"Gruvbox Light",
+	"Gruvbox Light Intense",
+	"Custom"
+]
 
-@var select secondBackground 'Second background color' {
-	"DeepDark": "#181818",
-	"BreezeDark": "#2a2e32",
-	"Vertex Dark": "#353638",
-	"Arc Dark": "#383C4A",
-	"Firefox Dark": "#181D20",
-	"Firefox57": "#252526",
-	"Discord": "#2F3136",
-	"YouTubeDark": "#232323",
-	"YouTubeLight": "#FFFFFF",
-	"Mint-Y-Dark": "#383838",
-	"9anime": "#17151C",
-	"Black&White": "#0a0a0a",
-	"Yellow_petrocompletions": "#202222",
-	"Yellow2": "#0c0a04",
-	"Ubuntu_grey": "#3D3C38",
-	"Ubuntu_purple": "#430B28",
-	"Orange": "#0e0702",
-	"Jisho_夜明け": "#2A1B1B",
-	"Adapta Nokto": "#263238",
-	"Solarized Dark": "#03303C",
-	"Solarized Light": "#F5EFDC",
-	"Gruvbox Dark": "#282828",
-	"Gruvbox Light": "#fbf1c7",
-	"Custom": "/*[[custom-second-background]]*\/"
-}
-@var color custom-second-background "Custom second background" "#181818"
+@var color mainColor "Custom main color" "#367bf0"
+@var color mainBackground "Custom main background" "#22242d"
+@var color secondBackground "Custom second background" "#242730"
+@var color hoverBackground "Custom hover background" "#4e5467"
+@var color mainText "Custom main text" "#eee"
+@var color dimmerText "Custom second text" "#ccc"
+@var color colorShadow "Custom shadow color" "rgba(56, 60, 74, .3)"
+@var color colorRed "Custom red color" "#ff6666"
+@var color colorYellow "Custom yellow color" "#ffb266"
+@var color colorOrange "Custom orange color" "#f79a63"
+@var color colorGreen "Custom green color" "#27ae60"
+@var color colorCyan "Custom cyan color" "#1abc9c"
+@var color colorBlue "Custom blue color" "#2980b9"
+@var color colorPurple "Custom purple color" "#60459f"
+@var color colorPink "Custom pink color" "#fe9ead"
+@var color colorGray "Custom gray color" "#c3c3c3"
 
-@var select hoverBackground 'Hover background color' {
-	"DeepDark": "#232323",
-	"BreezeDark": "#31363b",
-	"Vertex Dark": "#515254",
-	"Arc Dark": "#414A59",
-	"Firefox Dark": "#353A44",
-	"Firefox57": "#323234",
-	"Discord": "#484B51",
-	"YouTubeDark": "#343434",
-	"YouTubeLight": "#EAEAEA",
-	"Mint-Y-Dark": "#404040",
-	"9anime": "#1E1C25",
-	"Black&White": "#0f0f0f",
-	"Yellow_petrocompletions": "#353838",
-	"Yellow2": "#0f0d05",
-	"Ubuntu_grey": "#59564D",
-	"Ubuntu_purple": "#520D30",
-	"Orange": "#110903",
-	"Jisho_夜明け": "#863B2F",
-	"Adapta Nokto": "#2a353b",
-	"Solarized Dark": "#002B36",
-	"Solarized Light": "#EEE8D5",
-	"Gruvbox Dark": "#3c3836",
-	"Gruvbox Light": "#ebdbb2",
-	"Custom": "/*[[custom-hover-background]]*\/"
-}
-@var color custom-hover-background "Custom hover background" "#232323"
-
-@var select mainText 'Main text color' {
-	"DeepDark": "#eff0f1",
-	"BreezeDark": "#eff0f1",
-	"Vertex Dark": "#F3F3F5",
-	"Arc Dark": "#C1C8D1",
-	"Firefox Dark": "#E3EEF9",
-	"Firefox57": "#F9F9FA",
-	"Discord": "#FFFFFF",
-	"YouTubeDark": "#E1E1E1",
-	"YouTubeLight": "#111111",
-	"Mint-Y-Dark": "#FFFFFF",
-	"9anime": "#B4B4B4",
-	"Black&White": "#b4b4b4",
-	"Yellow_petrocompletions": "#EFF0F1",
-	"Yellow2": "#fffdf5",
-	"Ubuntu_grey": "#F2F1EF",
-	"Ubuntu_purple": "#F2F1EF",
-	"Orange": "#fff9f5",
-	"Jisho_夜明け": "#EFB26C",
-	"Adapta Nokto": "#FFFFFF",
-	"Solarized Dark": "#FDF6E3",
-	"Solarized Light": "#073642",
-	"Gruvbox Dark": "#fbf1c7",
-	"Gruvbox Light": "#282828",
-	"Custom": "/*[[custom-main-text]]*\/"
-}
-@var color custom-main-text "Custom main text" "#eff0f1"
-
-@var select dimmerText 'Secondary text color' {
-	"DeepDark": "#CCCCCC",
-	"BreezeDark": "#bdc3c7",
-	"Vertex Dark": "#AEAFB0",
-	"Arc Dark": "#B3BAC5",
-	"Firefox Dark": "#606376",
-	"Firefox57": "#D0D0D0",
-	"Discord": "#ADA8AA",
-	"YouTubeDark": "#7F7F7F",
-	"YouTubeLight": "#43434B",
-	"Mint-Y-Dark": "#D5DADA",
-	"9anime": "#747474",
-	"Black&White": "#828282",
-	"Yellow_petrocompletions": "#9F9999",
-	"Yellow2": "#fff8e1",
-	"Ubuntu_grey": "#E6E5E3",
-	"Ubuntu_purple": "#E6E5E3",
-	"Orange": "#ffede1",
-	"Jisho_夜明け": "#986E3F",
-	"Adapta Nokto": "#9b9b9b",
-	"Solarized Dark": "#EEE8D5",
-	"Solarized Light": "#586E75",
-	"Gruvbox Dark": "#ebdbb2",
-	"Gruvbox Light": "#3c3836",
-	"Custom": "/*[[custom-dimmer-text]]*\/"
-}
-@var color custom-dimmer-text "Custom dimmer text" "#CCCCCC"
-
-@var select colorShadow 'Shadow color' {
-	"Default": "rgba(0,0,0,.2)",
-	"Custom": "/*[[custom-color-shadow]]*\/"
-}
-@var color custom-color-shadow "Custom shadow color" "rgba(0,0,0,.2)"
-
-@var select colorRed 'Red color' {
-	"Default": "#DA4453",
-	"Solarized": "#dc322f",
-	"Gruvbox Dark": "#cc241d",
-	"Gruvbox Dark Intense": "#fb4934",
-	"Gruvbox Light": "#cc241d",
-	"Gruvbox Light Intense": "#9d0006",
-	"Custom": "/*[[custom-color-red]]*\/"
-}
-@var color custom-color-red "Custom red color" "#DA4453"
-
-@var select colorGreen 'Green color' {
-	"Default": "#27AE60",
-	"Solarized": "#859900",
-	"Gruvbox Dark": "#98971a",
-	"Gruvbox Dark Intense": "#b8bb26",
-	"Gruvbox Light": "#98971a",
-	"Gruvbox Light Intense": "#79740e",
-	"Custom": "/*[[custom-color-green]]*\/"
-}
-@var color custom-color-green "Custom green color" "#27AE60"
-
-@var select colorYellow 'Yellow color' {
-	"Default": "#FDBC4B",
-	"Solarized": "#b58900",
-	"Gruvbox Dark": "#d79921",
-	"Gruvbox Dark Intense": "#fabd2f",
-	"Gruvbox Light": "#d79921",
-	"Gruvbox Light Intense": "#b57614",
-	"Custom": "/*[[custom-color-yellow]]*\/"
-}
-@var color custom-color-yellow "Custom yellow color" "#FDBC4B"
-
-@var select colorOrange 'Orange color' {
-	"Default": "#F79A63",
-	"Solarized": "#cb4b16",
-	"Gruvbox Dark": "#d65d0e",
-	"Gruvbox Dark Intense": "#fe8019",
-	"Gruvbox Light": "#d65d0e",
-	"Gruvbox Light Intense": "#af3a03",
-	"Custom": "/*[[custom-color-orange]]*\/"
-}
-@var color custom-color-orange "Custom orange color" "#F79A63"
-
-@var select colorBlue 'Blue color' {
-	"Default": "#2980b9",
-	"Solarized": "#268bd2",
-	"Gruvbox Dark": "#458588",
-	"Gruvbox Dark Intense": "#83a598",
-	"Gruvbox Light": "#458588",
-	"Gruvbox Light Intense": "#076678",
-	"Custom": "/*[[custom-color-blue]]*\/"
-}
-@var color custom-color-blue "Custom blue color" "#2980b9"
-
-@var select colorPurple 'Purple color' {
-	"Default": "#60459F",
-	"Solarized": "#6c71c4",
-	"Gruvbox Dark": "#b16286",
-	"Gruvbox Dark Intense": "#d3869b",
-	"Gruvbox Light": "#b16286",
-	"Gruvbox Light Intense": "#8f3f71",
-	"Custom": "/*[[custom-color-purple]]*\/"
-}
-@var color custom-color-purple "Custom purple color" "#60459F"
-
-@var select colorPink 'Pink color' {
-	"Default": "#FE9EAD",
-	"Solarized": "#d33682",
-	"Gruvbox Dark": "#b16286",
-	"Gruvbox Dark Intense": "#d3869b",
-	"Gruvbox Light": "#b16286",
-	"Gruvbox Light Intense": "#8f3f71",
-	"Custom": "/*[[custom-color-pink]]*\/"
-}
-@var color custom-color-pink "Custom pink color" "#FE9EAD"
-
-@var select colorCyan 'Cyan color' {
-	"Default": "#1abc9c",
-	"Solarized": "#2aa198",
-	"Gruvbox Dark": "#689d6a",
-	"Gruvbox Dark Intense": "#8ec07c",
-	"Gruvbox Light": "#689d6a",
-	"Gruvbox Light Intense": "#427b58",
-	"Custom": "/*[[custom-color-cyan]]*\/"
-}
-@var color custom-color-cyan "Custom cyan color" "#1abc9c"
-
-@var select colorGray 'Gray color' {
-	"Default": "#c3c3c3",
-	"Solarized": "#93A1A1",
-	"Gruvbox Dark": "#a89984",
-	"Gruvbox Dark Intense": "#928374",
-	"Gruvbox Light": "#7c6f64",
-	"Gruvbox Light Intense": "#928374",
-	"Custom": "/*[[custom-color-gray]]*\/"
-}
-@var color custom-color-gray "Custom gray color" "#c3c3c3"
 ==/UserStyle== */
 
 @-moz-document regexp("https?://.*"), regexp("moz-extension://.*"), regexp("chrome-extension://.*") {
@@ -292,25 +81,463 @@
 	/*Main color variables*/
 	:root
 	{
-		/*User colors*/
-		--main-color: /*[[mainColor]]*/ !important;
-		--main-background: /*[[mainBackground]]*/ !important;
-		--second-background: /*[[secondBackground]]*/ !important;
-		--hover-background: /*[[hoverBackground]]*/ !important;
-		--main-text: /*[[mainText]]*/ !important;
-		--dimmer-text: /*[[dimmerText]]*/ !important;
+		if stylus-deepdark-style == "Deep-Dark" {
+			--main-color: #00adee !important;
+			--main-background: #111 !important;
+			--second-background: #181818 !important;
+			--hover-background: #232323 !important;
+			--main-text: #eff0f1 !important;
+			--dimmer-text: #ccc !important;
+			--editor-background: #181818 !important;
+			--select-background: #232323 !important;
+			--shadow: 0 1px 0.5px rgba(0, 0, 0, .3) !important;
+			--even-entry-background: rgba(0, 0, 0, .6) !important;
+		}
+		else if stylus-deepdark-style == "Inspired-Dark" {
+			--main-color: #5e8acc !important;
+			--main-background: #232629 !important;
+			--second-background: #181818 !important;
+			--hover-background: #515254 !important;
+			--main-text: #eee !important;
+			--dimmer-text: #ccc !important;
+			--editor-background: #181818 !important;
+			--select-background: #232323 !important;
+			--shadow: 0 1px 0.5px rgba(0, 0, 0, .13) !important;
+			--even-entry-background: rgba(0, 0, 0, .16) !important;
+		}
+		else if stylus-deepdark-style == "Breeze-Dark" {
+			--main-color: #3daee9 !important;
+			--main-background: #232629 !important;
+			--second-background: #2a2e32 !important;
+			--hover-background: #31363b !important;
+			--main-text: #eff0f1 !important;
+			--dimmer-text: #bdc3c7 !important;
+			--editor-background: #2a2e32 !important;
+			--select-background: #31363b !important;
+			--shadow: 0 1px 0.5px rgba(0, 0, 0, .13) !important;
+			--even-entry-background: rgba(0, 0, 0, .16) !important;
+		}
+		else if stylus-deepdark-style == "Breeze-Light" {
+			--main-color: #3daee9 !important;
+			--main-background: #eff0f1 !important;
+			--second-background: #fcfcfc !important;
+			--hover-background: #dcdee0 !important;
+			--main-text: #2a2e32 !important;
+			--dimmer-text: #31363b !important;
+			--editor-background: #fcfcfc !important;
+			--select-background: #dcdee0 !important;
+			--shadow: 0 1px 0.5px rgba(0, 0, 0, .13) !important;
+			--even-entry-background: rgba(0, 0, 0, .16) !important;
+		}
+		else if stylus-deepdark-style == "Vertex-Dark" {
+			--main-color: #4080fb !important;
+			--main-background: #2b2b2c !important;
+			--second-background: #353638 !important;
+			--hover-background: #515254 !important;
+			--main-text: #f3f3f5 !important;
+			--dimmer-text: #aeafb0 !important;
+			--editor-background: #2b2b2c !important;
+			--select-background: #515254 !important;
+			--shadow: 0 1px 0.5px rgba(0, 0, 0, .13) !important;
+			--even-entry-background: rgba(0, 0, 0, .2) !important;
+		}
+		else if stylus-deepdark-style == "Arc-Dark" {
+			--main-color: #5294e2 !important;
+			--main-background: #343944 !important;
+			--second-background: #383c4a !important;
+			--hover-background: #414a59 !important;
+			--main-text: #c1c8d1 !important;
+			--dimmer-text: #b3bac5 !important;
+			--editor-background: #343944 !important;
+			--select-background: #414a59 !important;
+			--shadow: 0 1px 0.5px rgba(0, 0, 0, .13) !important;
+			--even-entry-background: rgba(0, 0, 0, .16) !important;
+		}
+		else if stylus-deepdark-style == "Firefox-Dark" {
+			--main-color: #5675b9 !important;
+			--main-background: #272b35 !important;
+			--second-background: #181d20 !important;
+			--hover-background: #353a44 !important;
+			--main-text: #e3eef9 !important;
+			--dimmer-text: #bec0cc !important;
+			--editor-background: #181d20 !important;
+			--select-background: #353a44 !important;
+			--shadow: 0 1px 0.5px rgba(0, 0, 0, .13) !important;
+			--even-entry-background: rgba(0, 0, 0, .16) !important;
+		}
+		else if stylus-deepdark-style == "Firefox-57" {
+			--main-color: #4080fb !important;
+			--main-background: #0c0c0d !important;
+			--second-background: #252526 !important;
+			--hover-background: #323234 !important;
+			--main-text: #f9f9fa !important;
+			--dimmer-text: #d0d0d0 !important;
+			--editor-background: #252526 !important;
+			--select-background: #323234 !important;
+			--shadow: 0 1px 0.5px rgba(54, 54, 54, .2) !important;
+			--even-entry-background: rgba(54, 54, 54, .4) !important;
+		}
+		else if stylus-deepdark-style ==  "Discord" {
+			--main-color: #7289da !important;
+			--main-background: #1e2124 !important;
+			--second-background: #2f3136 !important;
+			--hover-background: #484b51 !important;
+			--main-text: #fff !important;
+			--dimmer-text: #ada8aa !important;
+			--editor-background: #2f3136 !important;
+			--select-background: #484b51 !important;
+			--shadow: 0 1px 0.5px rgba(47, 49, 54, .23) !important;
+			--even-entry-background: rgba(47, 49, 54, .49) !important;
+		}
+		else if stylus-deepdark-style == "YouTube-Dark" {
+			--main-color: #e52117 !important;
+			--main-background: #111 !important;
+			--second-background: #232323 !important;
+			--hover-background: #343434 !important;
+			--main-text: #e1e1e1 !important;
+			--dimmer-text: #7f7f7f !important;
+			--editor-background: #111 !important;
+			--select-background: #343434 !important;
+			--shadow: 0 1px 0.5px rgba(54, 54, 54, .2) !important;
+			--even-entry-background: rgba(54, 54, 54, .4) !important;
+		}
+		else if stylus-deepdark-style == "Mint-Y-Dark" {
+			--main-color: #9ab87c !important;
+			--main-background: #2f2f2f !important;
+			--second-background: #383838 !important;
+			--hover-background: #404040 !important;
+			--main-text: #fff !important;
+			--dimmer-text: #d5dada !important;
+			--editor-background: #2f2f2f !important;
+			--select-background: #404040 !important;
+			--shadow: 0 1px 0.5px rgba(0, 0, 0, .13) !important;
+			--even-entry-background: rgba(0, 0, 0, .23) !important;
+		}
+		else if stylus-deepdark-style == "9anime" {
+			--main-color: #723f8c !important;
+			--main-background: #0b0a0d !important;
+			--second-background: #17151c !important;
+			--hover-background: #1E1c25 !important;
+			--main-text: #f9f6fb !important;
+			--dimmer-text: #cac0cf !important;
+			--editor-background: #17151c !important;
+			--select-background: rgba(180, 180, 180, .1) !important;
+			--shadow: 0 1px 0.5px rgba(54, 54, 54, .13) !important;
+			--even-entry-background: rgba(54, 54, 54, .36) !important;
+		}
+		else if stylus-deepdark-style == "Black-and-White" {
+			--main-color: #fff !important;
+			--main-background: #000 !important;
+			--second-background: #1e1e1e !important;
+			--hover-background: #313131 !important;
+			--main-text: #fff !important;
+			--dimmer-text: #aaa !important;
+			--editor-background: #0a0a0a !important;
+			--select-background: #222 !important;
+			--shadow: 0 1px 0.5px rgba(54 ,54 ,54, .2) !important;
+			--even-entry-background: rgba(54 ,54 ,54, .4) !important;
+		}
+		else if stylus-deepdark-style == "Yellow" {
+			--main-color: #ffc700 !important;
+			--main-background: #141414 !important;
+			--second-background: #202222 !important;
+			--hover-background: #353838 !important;
+			--main-text: #eff0f1 !important;
+			--dimmer-text: #9f9999 !important;
+			--editor-background: #202222 !important;
+			--select-background: #353838 !important;
+			--shadow: 0 1px 0.5px rgba(34, 34, 34, .2) !important;
+			--even-entry-background: rgba(34, 34, 34, 1) !important;
+		}
+		else if stylus-deepdark-style == "Yellow-2" {
+			--main-color: #ffc700 !important;
+			--main-background: #0a0800 !important;
+			--second-background: #0c0a04 !important;
+			--hover-background: #0f0d05 !important;
+			--main-text: #fffdf5 !important;
+			--dimmer-text: #fff8e1 !important;
+			--editor-background: rgba(12, 10, 4, .2) !important;
+			--select-background: rgba(255, 253, 245, .1) !important;
+			--shadow: 0 1px 0.5px rgba(34, 34, 34, .2) !important;
+			--even-entry-background: rgba(34, 34, 34, 1) !important;
+		}
+		else if stylus-deepdark-style == "Ubuntu-Grey" {
+			--main-color: #ef7847 !important;
+			--main-background: #312d2a !important;
+			--second-background: #3d3c38 !important;
+			--hover-background: #59564d !important;
+			--main-text: #f2f1ef !important;
+			--dimmer-text: #e6e5e3 !important;
+			--editor-background: #312d2a !important;
+			--select-background: #59564d !important;
+			--shadow: 0 1px 0.5px rgba(89, 86, 77, .12) !important;
+			--even-entry-background: rgba(89, 86, 77, .21) !important;
+		}
+		else if stylus-deepdark-style == "Ubuntu-Purple" {
+			--main-color: #ef7847 !important;
+			--main-background: #2c071a !important;
+			--second-background: #430b28 !important;
+			--hover-background: #520D30 !important;
+			--main-text: #f2f1ef !important;
+			--dimmer-text: #e6e5e3 !important;
+			--editor-background: #430b28 !important;
+			--select-background: #520d30 !important;
+			--shadow: 0 1px 0.5px rgba(82, 13, 48, .2) !important;
+			--even-entry-background: rgba(82, 13, 48, .5) !important;
+		}
+		else if stylus-deepdark-style == "Orange" {
+			--main-color: #ff6905 !important;
+			--main-background: #0a0400 !important;
+			--second-background: #0e0702 !important;
+			--hover-background: #110903 !important;
+			--main-text: #fff9f5 !important;
+			--dimmer-text: #ffede1 !important;
+			--editor-background: #110903 !important;
+			--select-background: #47250a !important;
+			--shadow: 0 1px 0.5px rgba(255, 105, 5, .1) !important;
+			--even-entry-background: rgba(255, 105, 5, .1) !important;
+		}
+		else if stylus-deepdark-style == "Jisho" {
+			--main-color: #ef7d6c !important;
+			--main-background: #332222 !important;
+			--second-background: #2a1b1b !important;
+			--hover-background: #863b2f !important;
+			--main-text: #EFB26C !important;
+			--dimmer-text: #986E3F !important;
+			--editor-background: #2a1b1b !important;
+			--select-background: #863b2f !important;
+			--shadow: 0 1px 0.5px rgba(37, 19, 5, .19) !important;
+			--even-entry-background: rgba(37, 19, 5, .29) !important;
+		}
+		else if stylus-deepdark-style == "Adapta-Nokto" {
+			--main-color: #00bcd4 !important;
+			--main-background: #222d32 !important;
+			--second-background: #263238 !important;
+			--hover-background: #2a353b !important;
+			--main-text: #fff !important;
+			--dimmer-text: #9b9b9b !important;
+			--editor-background: #263238 !important;
+			--select-background: #3d4d56 !important;
+			--shadow: 0 1px 0.5px  rgba(61, 77, 86, .2) !important;
+			--even-entry-background: rgba(61, 77, 86, .3) !important;
+		}
+		else if stylus-deepdark-style == "Adapta-Breath-Nokto" {
+			--main-color: #1abc9c !important;
+			--main-background: #222d32 !important;
+			--second-background: #263238 !important;
+			--hover-background: #2a353b !important;
+			--main-text: #fff !important;
+			--dimmer-text: #9b9b9b !important;
+			--editor-background: #263238 !important;
+			--select-background: #2a353b !important;
+			--shadow: 0 1px 0.5px  rgba(42, 53, 59, .32) !important;
+			--even-entry-background: rgba(42, 53, 59, .62) !important;
+		}
+		else if stylus-deepdark-style == "Adapta-Light" {
+			--main-color: #00bcd4 !important;
+			--main-background: #fafbfc !important;
+			--second-background: #ffffff !important;
+			--hover-background: #eff0f1 !important;
+			--main-text: #222d32 !important;
+			--dimmer-text: #2a353b !important;
+			--editor-background: #fafbfc !important;
+			--select-background: #eff0f1 !important;
+			--shadow: 0 1px 0.5px rgba(0, 0, 0, .13) !important;
+			--even-entry-background: rgba(0, 0, 0, .16) !important;
+		}
+		else if stylus-deepdark-style == "Adapta-Breath-Light" {
+			--main-color: #1abc9c !important;
+			--main-background: #fafbfc !important;
+			--second-background: #ffffff !important;
+			--hover-background: #eff0f1 !important;
+			--main-text: #222d32 !important;
+			--dimmer-text: #2a353b !important;
+			--editor-background: #fafbfc !important;
+			--select-background: #eff0f1 !important;
+			--shadow: 0 1px 0.5px rgba(0, 0, 0, .13) !important;
+			--even-entry-background: rgba(0, 0, 0, .16) !important;
+		}
+		else if stylus-deepdark-style == "Solarized-Dark" {
+			--main-color: #268bd2 !important;
+			--main-background: #073642 !important;
+			--second-background: #03303c !important;
+			--hover-background: #002b36 !important;
+			--main-text: #fdf6E3 !important;
+			--dimmer-text: #eee8d5 !important;
+			--editor-background: #073642 !important;
+			--select-background: #002b36 !important;
+			--shadow: 0 1px 0.5px  rgba(0, 43, 54, .3) !important;
+			--even-entry-background: rgba(0, 43, 54, .5) !important;
+		}
+		else if stylus-deepdark-style == "Solarized-Light" {
+			--main-color: #268bd2 !important;
+			--main-background: #fdf6e3 !important;
+			--second-background: #f5efdc !important;
+			--hover-background: #eee8d5 !important;
+			--main-text: #073642 !important;
+			--dimmer-text: #586e75 !important;
+			--editor-background: #f5efdc !important;
+			--select-background: #ded8c4 !important;
+			--shadow: 0 1px 0.5px  rgba(222, 216, 196, .2) !important;
+			--even-entry-background: rgba(222, 216, 196, .3) !important;
+		}
+		else if stylus-deepdark-style == "Gruvbox-Dark" {
+			--main-color: #fe8019 !important;
+			--main-background: #1d2021 !important;
+			--second-background: #282828 !important;
+			--hover-background: #3c3836 !important;
+			--main-text: #fbf1c7 !important;
+			--dimmer-text: #ebdbb2 !important;
+			--editor-background: #282828 !important;
+			--select-background: #3c3836 !important;
+			--shadow: 0 1px 0.5px  rgba(60, 56, 54, .22) !important;
+			--even-entry-background: rgba(60, 56, 54, .33) !important;
+		}
+		else if stylus-deepdark-style == "Gruvbox-Light" {
+			--main-color: #af3a03 !important;
+			--main-background: #f9f5d7 !important;
+			--second-background: #fbf1c7 !important;
+			--hover-background: #ebdbb2 !important;
+			--main-text: #282828 !important;
+			--dimmer-text: #3c3836 !important;
+			--editor-background: #f9f5d7 !important;
+			--select-background: #ebdbb2 !important;
+			--shadow: 0 1px 0.5px  rgba(235, 219, 178, .33) !important;
+			--even-entry-background: rgba(235, 219, 178, .36) !important;
+		}
+		else if stylus-deepdark-style == "NierAutomata-Dark" {
+			--main-color: #fe8019 !important;
+			--main-background: #33302a !important;
+			--second-background: #48453c !important;
+			--hover-background: #7c6f64 !important;
+			--main-text: #dad4bb !important;
+			--dimmer-text: #bab5a1 !important;
+			--editor-background: #33302a !important;
+			--select-background: #7c6f64 !important;
+			--shadow: 0 1px 0.5px  rgba(124, 111, 100, .15) !important;
+			--even-entry-background: rgba(124, 111, 100, .21) !important;
+		}
+		else if stylus-deepdark-style == "NierAutomata-Light" {
+			--main-color: #fe8019 !important;
+			--main-background: #d1cdb7 !important;
+			--second-background: #dcd8c0 !important;
+			--hover-background: #bab5a1 !important;
+			--main-text: #48453c !important;
+			--dimmer-text: #33302a !important;
+			--editor-background: #dcd8c0 !important;
+			--select-background: #bab5a1 !important;
+			--shadow: 0 1px 0.5px rgba(186, 181, 161, 2) !important;
+			--even-entry-background: rgba(186, 181, 161, .3) !important;
+		}
+		else if stylus-deepdark-style == "HavocOS" {
+			--main-color: #0794d4 !important;
+			--main-background: #141618 !important;
+			--second-background: #1c1e20 !important;
+			--hover-background: #212528 !important;
+			--main-text: #fff !important;
+			--dimmer-text: #b9baba !important;
+			--editor-background: #1c1e20 !important;
+			--select-background: #212528 !important;
+			--shadow: 0 1px 0.5px rgba(185, 186, 186, .04) !important;
+			--even-entry-background: rgba(185, 186, 186, .05) !important;
+		}
+		else if stylus-deepdark-style == "Custom" {
+			--main-color: mainColor !important;
+			--main-background: mainBackground !important;
+			--second-background: secondBackground !important;
+			--hover-background: hoverBackground !important;
+			--main-text: mainText !important;
+			--dimmer-text: dimmerText !important;
+			--editor-background: editorBackground !important;
+			--select-background: selectBackground !important;
+			--shadow: 0 1px 0.5px colorShadow !important;
+			--even-entry-background: colorEvenEntry !important;
+		}
 
-		--shadow: 0 2px 3px 0 /*[[colorShadow]]*/ !important;
-		--red: /*[[colorRed]]*/ !important;
-		--green: /*[[colorGreen]]*/ !important;
-		--yellow: /*[[colorYellow]]*/ !important;
-		--orange: /*[[colorOrange]]*/ !important;
-		--blue: /*[[colorBlue]]*/ !important;
-		--cyan: /*[[colorCyan]]*/ !important;
-		--purple: /*[[colorPurple]]*/ !important;
-		--pink: /*[[colorPink]]*/ !important;
-		--gray: /*[[colorGray]]*/ !important;
-		
+		if colorRGB == "Default"
+		{
+			--red: #da4453 !important;
+			--yellow: #fdbc4b !important;
+			--orange: #F79A63 !important;
+			--green: #27AE60 !important;
+			--cyan: #1abc9c !important;
+			--blue: #2980b9 !important;
+			--purple: #60459F !important;
+			--pink: #FE9EAD !important;
+			--gray: #c3c3c3 !important;
+		}
+		else if colorRGB == "Solarized"
+		{
+			--red: #dc322f !important;
+			--yellow: #b58900 !important;
+			--orange: #cb4b16 !important;
+			--green: #859900 !important;
+			--cyan: #2aa198 !important;
+			--blue: #268bd2 !important;
+			--purple: #6c71c4 !important;
+			--pink: #d33682 !important;
+			--gray: #93A1A1 !important;
+		}
+		else if colorRGB == "Gruvbox Dark"
+		{
+			--red: #cc241d !important;
+			--yellow: #d79921 !important;
+			--orange: #d65d0e !important;
+			--green: #98971a !important;
+			--cyan: #689d6a !important;
+			--blue: #458588 !important;
+			--purple: #b16286 !important;
+			--pink: #b16286 !important;
+			--gray: #a89984 !important;
+		}
+		else if colorRGB == "Gruvbox Dark Intense"
+		{
+			--red: #fb4934 !important;
+			--yellow: #fabd2f !important;
+			--orange: #fe8019 !important;
+			--green: #b8bb26 !important;
+			--cyan: #8ec07c !important;
+			--blue: #83a598 !important;
+			--purple: #d3869b !important;
+			--pink: #d3869b !important;
+			--gray: #928374 !important;
+		}
+		else if colorRGB == "Gruvbox Light"
+		{
+			--red: #cc241d !important;
+			--yellow: #d79921 !important;
+			--orange: #d65d0e !important;
+			--green: #98971a !important;
+			--cyan: #689d6a !important;
+			--blue: #458588 !important;
+			--purple: #b16286 !important;
+			--pink: #b16286 !important;
+			--gray: #7c6f64 !important;
+		}
+		else if colorRGB == "Gruvbox Light Intense"
+		{
+			--red: #9d0006 !important;
+			--yellow: #b57614 !important;
+			--orange: #af3a03 !important;
+			--green: #79740e !important;
+			--cyan: #427b58 !important;
+			--blue: #076678 !important;
+			--purple: #8f3f71 !important;
+			--pink: #8f3f71 !important;
+			--gray: #928374 !important;
+		}
+		else if colorRGB == "Custom"
+		{
+			--red: colorRed !important;
+			--yellow: colorYellow !important;
+			--orange: colorOrange !important;
+			--green: colorGreen !important;
+			--cyan: colorCyan !important;
+			--blue: colorBlue !important;
+			--purple: colorPurple !important;
+			--pink: colorPink !important;
+			--gray: colorGray !important;
+		}
 	}
 	/*Changed text highlight*/
 	::selection
