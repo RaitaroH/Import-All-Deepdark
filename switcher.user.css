@@ -2,7 +2,7 @@
 @name Switcher for DeepDark Themes
 @namespace gitlab.com/RaitaroH/Import-All-Deepdark-DeepDark
 @homepageURL https://gitlab.com/RaitaroH/Import-All-Deepdark-DeepDark
-@version 2.0.0
+@version 2.0.1
 @updateURL https://gitlab.com/RaitaroH/Import-All-Deepdark/raw/master/switcher.user.css
 @description Change the colors for all DeepDark themes fast
 @author RaitaroH
@@ -46,10 +46,10 @@
 @var select colorRGB "Custom RGB color" [
 	"Default",
 	"Solarized",
-	"Gruvbox Dark",
-	"Gruvbox Dark Intense",
-	"Gruvbox Light",
-	"Gruvbox Light Intense",
+	"Gruvbox_Dark",
+	"Gruvbox_Dark_Intense",
+	"Gruvbox_Light",
+	"Gruvbox_Light_Intense",
 	"Custom"
 ]
 
@@ -478,7 +478,7 @@
 			--pink: #d33682 !important;
 			--gray: #93A1A1 !important;
 		}
-		else if colorRGB == "Gruvbox Dark"
+		else if colorRGB == "Gruvbox_Dark"
 		{
 			--red: #cc241d !important;
 			--yellow: #d79921 !important;
@@ -490,7 +490,7 @@
 			--pink: #b16286 !important;
 			--gray: #a89984 !important;
 		}
-		else if colorRGB == "Gruvbox Dark Intense"
+		else if colorRGB == "Gruvbox_Dark_Intense"
 		{
 			--red: #fb4934 !important;
 			--yellow: #fabd2f !important;
@@ -502,7 +502,7 @@
 			--pink: #d3869b !important;
 			--gray: #928374 !important;
 		}
-		else if colorRGB == "Gruvbox Light"
+		else if colorRGB == "Gruvbox_Light"
 		{
 			--red: #cc241d !important;
 			--yellow: #d79921 !important;
@@ -514,7 +514,7 @@
 			--pink: #b16286 !important;
 			--gray: #7c6f64 !important;
 		}
-		else if colorRGB == "Gruvbox Light Intense"
+		else if colorRGB == "Gruvbox_Light_Intense"
 		{
 			--red: #9d0006 !important;
 			--yellow: #b57614 !important;
