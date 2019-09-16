@@ -24,8 +24,8 @@ The easy color switcher:
 + [Switcher](https://github.com/RaitaroH/Import-All-Deepdark/raw/master/switcher.user.css)
 
 Extra stuff:
-+ [Hidden Password](https://github.com/RaitaroH/Hidden-Password/master/HiddenPassword.user.css)
-+ [DarkThemeFoxFix](https://github.com/RaitaroH/DarkThemeFoxFix/master/DarkThemeFoxFix.user.css)
++ [Hidden Password](https://github.com/RaitaroH/Hidden-Password/raw/master/HiddenPassword.user.css)
++ [DarkThemeFoxFix](https://github.com/RaitaroH/DarkThemeFoxFix/raw/master/DarkThemeFoxFix.user.css)
 
 ### Advantages
 + Easily install all my themes.         
