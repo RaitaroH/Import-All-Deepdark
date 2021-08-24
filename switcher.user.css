@@ -1,9 +1,9 @@
 /* ==UserStyle==
 @name Switcher for DeepDark Themes
-@namespace gitlab.com/RaitaroH/Import-All-Deepdark-DeepDark
-@homepageURL https://gitlab.com/RaitaroH/Import-All-Deepdark-DeepDark
-@version 2.0.1
-@updateURL https://gitlab.com/RaitaroH/Import-All-Deepdark/raw/master/switcher.user.css
+@namespace github.com/RaitaroH/Import-All-Deepdark-DeepDark
+@homepageURL https://github.com/RaitaroH/Import-All-Deepdark-DeepDark
+@version 2.0.2
+@updateURL https://github.com/RaitaroH/Import-All-Deepdark/raw/master/switcher.user.css
 @description Change the colors for all DeepDark themes fast
 @author RaitaroH
 @license GNU-V3.0
@@ -18,6 +18,7 @@
 	"HavocOS",
 	"Arc-Dark",
 	"Vertex-Dark",
+	"Dracula",
 	"Mint-Y-Dark",
 	"Adapta-Nokto",
 	"Adapta-Breath-Nokto",
@@ -32,6 +33,8 @@
 	"9anime",
 	"Firefox-Dark",
 	"Firefox-57",
+	"Firefox-Dark-91",
+	"Firefox-Alpenglow-Dark",
 	"Discord",
 	"YouTube-Dark",
 	"Black-and-White",
@@ -50,6 +53,7 @@
 	"Gruvbox_Dark_Intense",
 	"Gruvbox_Light",
 	"Gruvbox_Light_Intense",
+	"Dracula",
 	"Custom"
 ]
 
@@ -153,6 +157,18 @@
 			--shadow: 0 1px 0.5px rgba(0, 0, 0, .13) !important;
 			--even-entry-background: rgba(0, 0, 0, .16) !important;
 		}
+		else if stylus-deepdark-style == "Dracula" {
+			--main-color: #bd93f9 !important;                      /*Purple*/
+			--main-background: hsl(231, 15%, 18%) !important;      /*Background*/
+			--second-background: hsl(231, 15%, 22%) !important;    /*Manually generated from Background*/
+			--hover-background: #44475a !important;                /*Selection*/
+			--main-text:#f8f8f2 !important;                        /*Foreground*/
+			--dimmer-text: #bcc2cd !important;                     /*From .app-title https://draculatheme.com/*/
+			--editor-background: hsl(231, 15%, 18%) !important;
+			--select-background: #44475a !important;
+			--shadow: 0 1px 0.5px rgba(0, 0, 0, .15) !important;
+			--even-entry-background: rgba(47, 49, 54, .49) !important;
+		}
 		else if stylus-deepdark-style == "Firefox-Dark" {
 			--main-color: #5675b9 !important;
 			--main-background: #272b35 !important;
@@ -176,6 +192,30 @@
 			--select-background: #323234 !important;
 			--shadow: 0 1px 0.5px rgba(54, 54, 54, .2) !important;
 			--even-entry-background: rgba(54, 54, 54, .4) !important;
+		}
+		else if stylus-deepdark-style == "Firefox-Dark-91" {
+			--main-color: #00ddff !important;
+			--main-background: #1c1b22 !important;
+			--second-background: #23222b !important;
+			--hover-background: #2b2a33 !important;
+			--main-text: #fbfbfe !important;
+			--dimmer-text: #b8b7bb !important;
+			--editor-background: #23222b !important;
+			--select-background: #2b2a33 !important;
+			--shadow: 0 1px 0.5px rgba(0, 0, 0, .13) !important;
+			--even-entry-background: rgba(54, 54, 54, .4) !important;
+		}
+		else if stylus-deepdark-style == "Firefox-Alpenglow-Dark" {
+			--main-color: #C488FC !important;
+			--main-background: #21133d !important;
+			--second-background: #2a1e52 !important;
+			--hover-background: #2d245b !important;
+			--main-text: #ffffff !important;
+			--dimmer-text: #E3DBFA !important;
+			--editor-background: #2a1e52 !important;
+			--select-background: #2d245b !important;
+			--even-entry-background: rgba(35, 22, 65, .2) !important;
+			--shadow: 0 1px .5px rgba(35, 22, 65, .5) !important;
 		}
 		else if stylus-deepdark-style ==  "Discord" {
 			--main-color: #7289da !important;
@@ -525,6 +565,18 @@
 			--purple: #8f3f71 !important;
 			--pink: #8f3f71 !important;
 			--gray: #928374 !important;
+		}
+		else if colorRGB == "Dracula"
+		{
+			--red: #ff5555 !important;
+			--yellow: #f1fa8c !important;
+			--orange: #ffb86c !important;
+			--green: #50fa7b !important;
+			--cyan: #8be9fd !important;
+			--blue: #6272a4 !important;
+			--purple: #bd93f9 !important;
+			--pink: #ff79c6 !important;
+			--gray: #505b7e !important;
 		}
 		else if colorRGB == "Custom"
 		{
