@@ -39,4 +39,20 @@ Extra stuff:
 
 ### Disadvantages - IF YOU INSTALL THEM ONE BY ONE USING STYLUS, THEN, THIS DOESN'T APPLY
 + You cannot modify or see the code of the themes inside Stylus.         
-+ Possible lag before the theme is applied on the page.         
++ Possible lag before the theme is applied on the page.
+
+
+##  Credit
+Credit for the color palettes in use: 
++ [@KDE Design Theme](https://github.com/KDE/breeze),
++ [@horst3180](https://github.com/horst3180),
++ [@linuxmint](https://github.com/linuxmint),
++ [Firefox](https://www.mozilla.org/en-US/firefox/new/),
++ [YouTube](https://www.youtube.com/),
++ [@morhetz](https://github.com/morhetz),
++ [@Zeno Rocha](https://github.com/zenorocha),
++ [@Ethan Schoonover](https://ethanschoonover.com/solarized/),
++ @Tista and [@adapta-project](https://github.com/adapta-project),
++ the Nier Automata Game & SquareEnix
++ [Ubuntu](https://ubuntu.com),
++ [Discord](https://discordapp.com/).
